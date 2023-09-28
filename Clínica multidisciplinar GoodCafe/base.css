@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+h3 {
+    padding: 0 0 0px 30px;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(252, 200, 236);
+    padding: 10px 20px 0px;
+}
+.header {    
+    background-color: rgb(186, 172, 233);
+    min-height: 150px;
+    font-size: 200%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;        
+}
+.content {
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    padding: 20px;       
+}
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer {
+    background-color: rgb(188, 177, 225);
+    min-height: 150px;
+}
+table {
+    border: dotted 1px blueviolet;
+    align-items: center;
+    text-align-last: center;
+}
+th{
+    background-color: rgb(252, 200, 236);
+    align-items: center;
+}
+td {
+    background-color: rgb(229, 224, 244);
+    align-items: center;
+}
+form {
+    width: 200px;
+    padding: 30px;
+    border:1px dotted #a396ba;
+}
